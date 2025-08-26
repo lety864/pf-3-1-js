@@ -65,6 +65,7 @@ switch (option) {
         const operador2 = prompt("Escribe otro de los signos: (+) o (-)");
 
         alert(operaciones(num10,num11,num12,[operador1,operador2]));
+        break;
 
     default:
         alert("Opcion no valida");
